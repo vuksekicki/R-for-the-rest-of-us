@@ -1,0 +1,65 @@
+---
+title: "Hospital report"
+author: "Vuk Sekicki"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Descriptive analysis of patient population
+
+### Section 1:
+In this section I will describe patient population:
+
+Gender
+- Age and age groups
+- Mortality, with mortality per year, most common cause
+- Diagnosis with largest burden
+
+### Section 2
+
+Time analysis of the patients coming into the hospital
+
+Divide the day in sections:
+
+- AM: 8- noon
+- PM: noon – 1700
+- Evening: 1700 to 2200
+- Night: 2200-0800
+
+See which section has most patients to be able to guess if there is lack of staffing in particular shift
+
+Divide month into week and week into days. 
+
+- Statistics per day of the week
+- Is number of patients during the year variate on different days of the week?
+- Statistics per month and comparison over years 2017,18,19,20
+- Holidays and post-holiday numbers
+
+### Section 3
+
+Medicine department analysis
+
+Per Physician:
+- Number of patients per year (mean, SD IQR presented as box plot)
+- Length of stay (mean, SD IQR presented as box plot)
+- Number of deaths mean, SD IQR presented as box plot)
+
+Diagnostics groups:
+- Cancer
+- Cardiovascular disease
+- Sepsis/Infections
+- Heart failure
+- COPD
+- Does something else stick out while probing the database?
+
+### Section 4
+
+Recommendations for improvement. 
+
+- Staffing
+- Outpatient follow up clinics (for heart failure and DM if this ends up being a major burden to the hospital, or geriatrics?)
+
+
