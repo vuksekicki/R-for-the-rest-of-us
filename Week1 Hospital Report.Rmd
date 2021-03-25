@@ -8,17 +8,19 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## Descriptive analysis of patient population
+# Descriptive analysis of patient population
 
-### Section 1:
+## Section 1:
+
 In this section I will describe patient population:
 
 Gender
+
 - Age and age groups
 - Mortality, with mortality per year, most common cause
 - Diagnosis with largest burden
 
-### Section 2
+## Section 2
 
 Time analysis of the patients coming into the hospital
 
@@ -38,16 +40,18 @@ Divide month into week and week into days.
 - Statistics per month and comparison over years 2017,18,19,20
 - Holidays and post-holiday numbers
 
-### Section 3
+## Section 3
 
 Medicine department analysis
 
 Per Physician:
+
 - Number of patients per year (mean, SD IQR presented as box plot)
 - Length of stay (mean, SD IQR presented as box plot)
 - Number of deaths mean, SD IQR presented as box plot)
 
 Diagnostics groups:
+
 - Cancer
 - Cardiovascular disease
 - Sepsis/Infections
@@ -55,7 +59,7 @@ Diagnostics groups:
 - COPD
 - Does something else stick out while probing the database?
 
-### Section 4
+## Section 4
 
 Recommendations for improvement. 
 
